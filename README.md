@@ -6,10 +6,12 @@ Currently working on **[ownloom](https://github.com/alexradunet/ownloom)**: a pe
 
 ## Focus
 
+- Private secure and sovereign AI Agent aligned with EU Values.
 - Local-first AI agents and AI-native operating environments
 - NixOS, immutable infrastructure, and self-hosted systems
 - TypeScript agent tooling and developer automation
 - Human-centered software that stays inspectable and practical
+- Writing simple and maintanable software that follows the best coding practices.
 
 ## Featured work
 
@@ -28,7 +30,8 @@ Systems where the assistant is not a chatbot bolted onto the side, but part of t
 - small composable tools
 - reproducible machines
 - private/self-hosted workflows
-- software that helps real life instead of adding more noise
+- software that helps me in real life instead of adding more noise
+
 
 ## Contact
 
