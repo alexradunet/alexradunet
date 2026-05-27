@@ -2,7 +2,7 @@
 
 I build local-first AI systems, NixOS-based infrastructure, and practical developer tools.
 
-Currently working on **[ownloom](https://github.com/alexradunet/ownloom)**: a personal immutable OS where an AI agent is a first-class part of the system UX.
+Currently working on **[Nazar](https://github.com/alexradunet/nazar)**: a personal AI Assisted suite for life management and code management build using Pi.Dev
 
 ## Focus
 
