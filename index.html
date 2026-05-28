@@ -576,6 +576,60 @@
       color: var(--on-surface-variant);
       text-transform: uppercase;
     }
+    .role-location {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: var(--on-surface-variant);
+      text-transform: uppercase;
+      opacity: 0.85;
+    }
+    .role-location::before {
+      content: '· ';
+      margin-right: 4px;
+    }
+
+    /* ───────── Education ───────── */
+    .education-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+      max-width: 820px;
+    }
+    .education-entry {
+      padding-left: var(--space-md);
+      border-left: 1px solid var(--outline-variant);
+    }
+    .education-head {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      margin-bottom: 4px;
+    }
+    .education-degree {
+      font-family: var(--font-headline);
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+      color: var(--on-surface);
+    }
+    .education-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: var(--on-surface-variant);
+      text-transform: uppercase;
+    }
+    .education-entry p {
+      font-size: 15px;
+      line-height: 1.55;
+      margin: 0 0 6px 0;
+      color: var(--on-surface);
+    }
+    .education-entry .role-tech {
+      margin-top: var(--space-xs);
+    }
     .role-title {
       font-family: var(--font-body);
       font-size: 15px;
@@ -823,23 +877,26 @@
           <header class="role-head">
             <h3 class="role-company">Medius</h3>
             <span class="role-dates">Aug 2023 — Jun 2026</span>
+            <span class="role-location">Tunis, Tunisia · Remote</span>
           </header>
           <p class="role-title">Senior Software Engineer · CFO Team · Payments Platform</p>
           <ul class="role-points">
             <li>Built a flexible multi-provider payment architecture (Adyen and Swan) with abstraction layers that eliminated vendor lock-in and enabled seamless provider switching.</li>
             <li>Led the migration of the Payment Admin section from AngularJS to React via a strategic hybrid model — zero disruption to feature delivery, full test coverage on critical paths.</li>
             <li>Delivered complete Adyen integration: card issuing, webhooks, multi-currency support, MT940 export automation, and advanced payment workflows.</li>
-            <li>Served as Scrum Master for nine months while maintaining full development responsibilities, facilitating sprint planning, retrospectives, and unblocking the team.</li>
+            <li>Started a DevEx Consultant & Architect initiative to speed up the development process and introduce AI-assisted workflows across the engineering team.</li>
+            <li>Served as Scrum Master for nine months while maintaining full development responsibilities — sprint planning, retrospectives, unblocking the team.</li>
             <li>Authored technical specifications and spike documents that became team reference standards; managed production releases without major incidents during a 300% volume expansion.</li>
           </ul>
           <ul class="role-tech">
-            <li>.NET</li>
-            <li>C#</li>
-            <li>React</li>
             <li>TypeScript</li>
+            <li>C#</li>
+            <li>.NET</li>
+            <li>React</li>
             <li>Adyen</li>
             <li>Swan</li>
             <li>MT940</li>
+            <li>AI-assisted workflows</li>
           </ul>
         </article>
 
@@ -847,6 +904,7 @@
           <header class="role-head">
             <h3 class="role-company">Waters Corporation</h3>
             <span class="role-dates">Mar 2022 — Aug 2023</span>
+            <span class="role-location">Brașov, Romania · Hybrid</span>
           </header>
           <p class="role-title">Senior Software Engineer · Enterprise Data Management Tools</p>
           <ul class="role-points">
@@ -868,15 +926,17 @@
         <article class="role">
           <header class="role-head">
             <h3 class="role-company">Siemens</h3>
-            <span class="role-dates">2016 — Mar 2022</span>
+            <span class="role-dates">Apr 2018 — Feb 2022</span>
+            <span class="role-location">Brașov, Romania</span>
           </header>
           <p class="role-title">Software Engineer → Technical Lead · Industrial IoT, Logistics, Security</p>
           <ul class="role-points">
+            <li>Built an Android logistics app for truck drivers with Xamarin.Forms and MapBox — route optimization, real-time delivery tracking, offline sync.</li>
             <li>Built a Java and Spring Boot data migration tool that moved 5M+ records from a legacy mainframe to a modern microservices architecture.</li>
             <li>Prototyped a full-stack security scanning application with Angular (NgRx) and NestJS that automated vulnerability detection.</li>
             <li>Developed a .NET OPC UA client for industrial fuel management with real-time monitoring, alarm notifications, and 99.99% uptime.</li>
             <li>Led a team of four building hardware-device simulators in .NET 6; reduced hardware-testing dependency by 70%.</li>
-            <li>Managed enterprise deployment of web and desktop applications using InstallShield, Azure DevOps, IIS, and PowerShell.</li>
+            <li>Mentored and trained interns in C# and .NET, introduced them to Blazor, ran regular knowledge-sharing sessions.</li>
           </ul>
           <ul class="role-tech">
             <li>Java</li>
@@ -886,13 +946,76 @@
             <li>NgRx</li>
             <li>NestJS</li>
             <li>OPC UA</li>
-            <li>Azure DevOps</li>
+            <li>Xamarin</li>
+            <li>Blazor</li>
+          </ul>
+        </article>
+
+        <article class="role">
+          <header class="role-head">
+            <h3 class="role-company">FuelPlus Group</h3>
+            <span class="role-dates">Jan 2016 — May 2018</span>
+            <span class="role-location">Brașov, Romania · On-site</span>
+          </header>
+          <p class="role-title">Software Engineer · SaaS Fuel Management Platform</p>
+          <ul class="role-points">
+            <li>Built fuel transaction processing modules in Java 7 and Spring 3; implemented scheduled batch jobs for automated invoicing and workflow automation for approval processes.</li>
+            <li>Built reporting dashboards and interactive UI components with JavaScript, jQuery, and ExtJS (Sencha).</li>
+            <li>Created REST APIs for mobile integration, enabling real-time data sync between the web platform and field operations.</li>
+          </ul>
+          <ul class="role-tech">
+            <li>Java 7</li>
+            <li>Spring 3</li>
+            <li>jQuery</li>
+            <li>ExtJS</li>
+            <li>MySQL</li>
+            <li>REST</li>
           </ul>
         </article>
 
       </div>
 
-      <p class="cv-footnote">10+ years across enterprise payments, scientific instruments, industrial IoT, and security platforms. Available on request for full references, project deep-dives, or a print-ready PDF.</p>
+      <p class="cv-footnote">10+ years across enterprise payments, scientific instruments, industrial IoT, and SaaS. Full CV with certifications and details lives in <a href="https://github.com/alexradunet/alexradunet/blob/main/CV.md">CV.md</a>.</p>
+    </section>
+
+    <hr class="stitch" aria-hidden="true">
+
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+
+      <div class="education-list">
+
+        <article class="education-entry">
+          <header class="education-head">
+            <h3 class="education-degree">Master's Degree · Advanced IT Systems</h3>
+            <span class="education-meta">Universitatea Transilvania din Brașov · 2018 — 2020</span>
+          </header>
+          <p>Dissertation: prototype augmented-reality mobile app integrating geolocation with location-based markerless AR. Set up a continuous deployment pipeline for the .NET Core 3.0 backend on Azure DevOps.</p>
+          <ul class="role-tech">
+            <li>Java</li>
+            <li>Android</li>
+            <li>C#</li>
+            <li>.NET Core</li>
+            <li>AR Core</li>
+            <li>SQL Server</li>
+          </ul>
+        </article>
+
+        <article class="education-entry">
+          <header class="education-head">
+            <h3 class="education-degree">Bachelor's Degree · Information Technology</h3>
+            <span class="education-meta">Universitatea Transilvania din Brașov · 2014 — 2018</span>
+          </header>
+          <p>Final project: Android social application using geolocation for context-aware permissions and actions. Volunteered at the Board of European Students of Technology (BEST) Brașov.</p>
+          <ul class="role-tech">
+            <li>Java</li>
+            <li>Android</li>
+            <li>Firebase</li>
+            <li>NoSQL</li>
+          </ul>
+        </article>
+
+      </div>
     </section>
 
     <hr class="stitch" aria-hidden="true">
