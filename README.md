@@ -2,7 +2,7 @@
 
 I build local-first AI tools, creative software, and the occasional weird thing in between.
 
-Currently working on **[nazar](https://github.com/alexradunet/nazar)** — a Pi-native, OS-agnostic, local-first memory appliance for AI agents — and **forge.dance**, a gamified street dance learning app where mastered moves become collectible cards that fuel personalized daily workouts.
+Currently working on **[nazar](https://github.com/alexradunet/nazar)** — an AI Life OS built on Pi.dev that weaves memory, context, calendars, music, and messaging into *the studio for your life* — and **forge.dance**, a gamified street dance learning app where mastered moves become collectible cards that fuel personalized daily workouts.
 
 Ten years across enterprise payments, .NET modernization, and full-stack delivery. Now exploring what AI changes about being a senior engineer — leaning on architectural judgment, pattern discipline, and AI execution to ship across surfaces that would normally require a team.
 
@@ -17,7 +17,7 @@ Ten years across enterprise payments, .NET modernization, and full-stack deliver
 
 ## Featured work
 
-- **[nazar](https://github.com/alexradunet/nazar)** — Pi-native, OS-agnostic, local-first memory appliance for AI agents.
+- **[nazar](https://github.com/alexradunet/nazar)** — *The studio for your life.* A personal AI Life OS built on Pi.dev — memory, context, calendars, music, and messaging woven into one place.
 - **forge.dance** *(concept · launching soon)* — gamified street dance learning where mastered moves become collectible cards that generate personalized daily workouts. Flutter + Firebase.
 
 I also like to experiment a lot — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks. **[Browse experiments on GitHub →](https://github.com/alexradunet?tab=repositories)**

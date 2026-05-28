@@ -95,7 +95,7 @@ Final project: Android social application using geolocation to offer customized 
 
 ## Selected Open-Source Projects
 
-- **[nazar](https://github.com/alexradunet/nazar)** — Pi-native, OS-agnostic, local-first memory appliance for AI agents. Durable memory, generated context, searchable project knowledge, plus optional voice, Spotify, and WhatsApp integrations.
+- **[nazar](https://github.com/alexradunet/nazar)** — *The studio for your life.* A personal AI Life OS built on Pi.dev that weaves memory, context, calendars, music, and messaging into one cohesive personal world. *(nazar.studio · in active development)*
 - **forge.dance** *(concept · launching soon)* — gamified street dance learning app where mastered moves become collectible cards that generate personalized daily workouts. Flutter + Firebase.
 
 Plus various experiments — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks — at [github.com/alexradunet](https://github.com/alexradunet?tab=repositories).
