@@ -22,16 +22,6 @@ Ten years across enterprise payments, .NET modernization, and full-stack deliver
 
 I also like to experiment a lot — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks. **[Browse experiments on GitHub →](https://github.com/alexradunet?tab=repositories)**
 
-## What I like building
-
-Systems where the assistant is not a chatbot bolted onto the side, but part of the environment:
-
-- Local-first memory and context
-- Small composable tools
-- Reproducible machines
-- Private and self-hosted workflows
-- Software that helps in real life instead of adding more noise
-
 ## Contact
 
 - Website: [alexradu.net](https://alexradu.net)
