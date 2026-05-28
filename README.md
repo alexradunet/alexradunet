@@ -19,10 +19,8 @@ Ten years across enterprise payments, .NET modernization, and full-stack deliver
 
 - **[nazar](https://github.com/alexradunet/nazar)** — Pi-native, OS-agnostic, local-first memory appliance for AI agents.
 - **forge.dance** *(concept · launching soon)* — gamified street dance learning where mastered moves become collectible cards that generate personalized daily workouts. Flutter + Firebase.
-- **[nixos-config](https://github.com/alexradunet/nixos-config)** — daily-driver NixOS configuration and developer environment.
-- **[nixos-ovh-provisioner](https://github.com/alexradunet/nixos-ovh-provisioner)** — infrastructure automation for provisioning NixOS systems on OVH.
-- **[CognitiveHyperMedia](https://github.com/alexradunet/CognitiveHyperMedia)** — cognitive hypermedia framework for stateful REST resources and MCP bridges.
-- **[nazaritor](https://github.com/alexradunet/nazaritor)** — AI-first knowledge management with Next.js, Hono, tRPC, and Drizzle.
+
+I also like to experiment a lot — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks. **[Browse experiments on GitHub →](https://github.com/alexradunet?tab=repositories)**
 
 ## What I like building
 

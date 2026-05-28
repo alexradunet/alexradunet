@@ -472,6 +472,68 @@
     .project-link:hover,
     .project-link:focus { border-bottom-color: var(--primary); }
 
+    /* ───────── Experiments callout ───────── */
+    .experiments-cta {
+      position: relative;
+      margin-top: var(--space-md);
+      padding: var(--space-md) var(--space-md);
+      background: var(--surface-container);
+      border: 1px solid var(--outline-variant);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    /* Pixel notch in top-right */
+    .experiments-cta::after {
+      content: '';
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      width: 4px;
+      height: 4px;
+      background: var(--secondary-fixed-dim);
+    }
+    .experiments-cta h3 {
+      font-family: var(--font-headline);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--on-surface);
+      margin: 0 0 6px 0;
+    }
+    .experiments-cta p {
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--on-surface-variant);
+      margin: 0 auto var(--space-sm) auto;
+      max-width: 460px;
+    }
+    .button-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      background: var(--primary-container);
+      color: var(--on-primary);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border: 1px solid var(--primary);
+      border-radius: var(--radius);
+      text-decoration: none;
+      position: relative;
+      transition: background-color 0.15s ease;
+    }
+    .button-primary:hover,
+    .button-primary:focus {
+      background: var(--primary);
+      color: var(--on-primary);
+    }
+    .button-primary .button-arrow {
+      font-family: var(--font-body);
+      font-size: 14px;
+    }
+
     /* ───────── Experience / CV ───────── */
     .cv {
       display: flex;
@@ -739,57 +801,14 @@
           <span class="project-link" style="color: var(--on-surface-variant); border-bottom-color: transparent;">— concept · launching soon</span>
         </article>
 
-        <article class="project">
-          <header class="project-head">
-            <h3 class="project-name">nixos-config</h3>
-          </header>
-          <p>Daily-driver NixOS configuration and developer environment. Reproducible and declarative from boot to editor.</p>
-          <ul class="project-tags">
-            <li>NixOS</li>
-            <li>infra</li>
-          </ul>
-          <a class="project-link" href="https://github.com/alexradunet/nixos-config">github.com/alexradunet/nixos-config</a>
-        </article>
+      </div>
 
-        <article class="project">
-          <header class="project-head">
-            <h3 class="project-name">nixos-ovh-provisioner</h3>
-          </header>
-          <p>Infrastructure automation for provisioning NixOS systems on OVH. Pure-functional infrastructure-as-code for sovereign hosting.</p>
-          <ul class="project-tags">
-            <li>NixOS</li>
-            <li>OVH</li>
-            <li>IaC</li>
-          </ul>
-          <a class="project-link" href="https://github.com/alexradunet/nixos-ovh-provisioner">github.com/alexradunet/nixos-ovh-provisioner</a>
-        </article>
-
-        <article class="project">
-          <header class="project-head">
-            <h3 class="project-name">CognitiveHyperMedia</h3>
-          </header>
-          <p>Cognitive hypermedia framework for stateful REST resources, MCP bridges, and Deno KV-backed applications.</p>
-          <ul class="project-tags">
-            <li>TypeScript</li>
-            <li>Deno</li>
-            <li>MCP</li>
-          </ul>
-          <a class="project-link" href="https://github.com/alexradunet/CognitiveHyperMedia">github.com/alexradunet/CognitiveHyperMedia</a>
-        </article>
-
-        <article class="project">
-          <header class="project-head">
-            <h3 class="project-name">nazaritor</h3>
-          </header>
-          <p>AI-first knowledge management with Next.js, Hono, tRPC, Drizzle, and agent-oriented architecture.</p>
-          <ul class="project-tags">
-            <li>Next.js</li>
-            <li>tRPC</li>
-            <li>AI</li>
-          </ul>
-          <a class="project-link" href="https://github.com/alexradunet/nazaritor">github.com/alexradunet/nazaritor</a>
-        </article>
-
+      <div class="experiments-cta">
+        <h3>I also like to experiment a lot.</h3>
+        <p>Side projects, prototypes, and curiosities — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks. Most of them live on GitHub.</p>
+        <a class="button-primary" href="https://github.com/alexradunet?tab=repositories">
+          Browse experiments on GitHub <span class="button-arrow" aria-hidden="true">→</span>
+        </a>
       </div>
     </section>
 
