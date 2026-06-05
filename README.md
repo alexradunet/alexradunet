@@ -17,9 +17,7 @@ Ten years across enterprise payments, .NET modernization, and full-stack deliver
 
 ## Featured work
 
-- **[nazar](https://github.com/alexradunet/nazar-studio)** — *The studio for your life.* A personal user-centric immutable OS based on NixOS where a Pi.Dev AI agent is a first-class citizen of the system and dictates the user experience. *(nazar.studio)*
-- **[forge.dance](https://github.com/alexradunet/forge.dance)** *(building publicly)* — gamified street dance learning where mastered moves become collectible cards that fuel personalized daily workouts. Flutter + Firebase. *(forge.dance)*
-I also like to experiment a lot — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks. **[Browse experiments on GitHub →](https://github.com/alexradunet?tab=repositories)**
+- **[nazar](https://github.com/alexradunet/nazar-studio)** — *The studio for your life.* A personal user-centric AI agent built as a PI Extension made fun, private and personal. *(nazar.studio)*
 
 ## Contact
 
