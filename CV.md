@@ -1,6 +1,8 @@
 # Alex Radu — Curriculum Vitae
 
-Senior Software Engineer with 10+ years across enterprise payments, scientific instrumentation, industrial IoT, and AI-augmented engineering workflows. Currently exploring local-first AI tools and creative software.
+Senior Software Engineer with 10+ years building enterprise platforms across payments, scientific instrumentation, and industrial IoT. Strong in TypeScript, C#, .NET, React, and system integration, with recent focus on payment architecture, legacy modernization, developer experience, and local-first AI tooling.
+
+**Core strengths:** payment systems · .NET/TypeScript architecture · React migration · enterprise integrations · developer experience · technical leadership · local-first AI tooling
 
 **Location:** Brașov, Romania · Available for international remote work
 **Web:** [alexradu.net](https://alexradu.net)
@@ -96,7 +98,7 @@ Final project: Android social application using geolocation to offer customized 
 ## Selected Open-Source Projects
 
 - **[nazar](https://github.com/alexradunet/nazar-studio)** — *The studio for your life.* A personal user-centric immutable OS based on NixOS where a Pi.Dev AI agent is a first-class citizen of the system and dictates the user experience. *(nazar.studio · in active development)*
-- **[forge.dance](https://github.com/alexradunet/forge.dance)** — gamified street dance learning where mastered moves become collectible cards that generate personalized daily workouts. Flutter + Firebase. *(forge.dance · building publicly)*
+- **[forge.dance](https://github.com/alexradunet/forge-dance)** — gamified street dance learning where mastered moves become collectible cards that generate personalized daily workouts. Flutter + Firebase. *(forge.dance · building publicly)*
 
 Plus various experiments — NixOS configs, MCP bridges, AI-first knowledge tooling, hypermedia frameworks — at [github.com/alexradunet](https://github.com/alexradunet?tab=repositories).
 
