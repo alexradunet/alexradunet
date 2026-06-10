@@ -4,7 +4,7 @@ Senior Software Engineer building enterprise platforms, local-first AI tools, an
 
 Ten years across enterprise payments, scientific instrumentation, industrial IoT, .NET modernization, and full-stack delivery. Recently focused on payment architecture, legacy migration, developer experience, and AI-assisted engineering workflows.
 
-Currently working on **[nazar](https://github.com/alexradunet/nazar-studio)** — a local-first personal AI environment built as a Pi-native TypeScript extension product — and **[forge.dance](https://github.com/alexradunet/forge-dance)**, a gamified street dance learning app where mastered moves become collectible cards that fuel personalized daily workouts.
+Currently working on **[balaur 🐉](https://github.com/alexradunet/balaur)** — a local-first personal AI Assisted, Design for Human Life usage and not coding
 
 ## Focus
 
@@ -17,8 +17,7 @@ Currently working on **[nazar](https://github.com/alexradunet/nazar-studio)** �
 
 ## Featured work
 
-- **[nazar](https://github.com/alexradunet/nazar-studio)** — *The studio for your life.* A local-first personal AI environment with Markdown memory, local models, tools, and terminal UI. *(nazar.studio)*
-- **[forge.dance](https://github.com/alexradunet/forge-dance)** — gamified street dance learning where mastered moves become collectible cards and generate personalized daily workouts.
+- **[balaur 🐉](https://github.com/alexradunet/balaur)** — *The studio for your life.* A local-first personal AI environment with Markdown memory, local models, tools, and terminal UI. *(balaur.org)*
 - **[nixos-ovh-provisioner](https://github.com/alexradunet/nixos-ovh-provisioner)** — infrastructure automation for provisioning NixOS systems on OVH.
 
 ## Career assets
